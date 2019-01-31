@@ -11,8 +11,8 @@ namespace ASPPAB
 {
     public partial class Zawodnicy : System.Web.UI.Page
     {
-        //string connString = "Data Source = DESKTOP - UQOV7LN; Initial Catalog = DBPROJEKT; Integrated Security = True";
-        string connString = @"Data Source=KAKA-KOMPUTER\BAZYPROJEKT;Initial Catalog=SRBD;Integrated Security=True";
+        string connString = "Data Source = DESKTOP - UQOV7LN; Initial Catalog = DBPROJEKT; Integrated Security = True";
+        //string connString = @"Data Source=KAKA-KOMPUTER\BAZYPROJEKT;Initial Catalog=SRBD;Integrated Security=True";
         protected void Page_Load(object sender, EventArgs e)
         {
             GridView2.Visible = true;
